@@ -1,0 +1,522 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink=to-fit=no">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Kode+Mono:wght@400..700&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+  <title>emma's super cool site...</title>
+
+  <nav class="navbar navbar-expand-lg navbar-top py-3">
+    <div class="container-fluid">
+      <div class="collapse-navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Experience</a>
+          </li>
+          <li class="nav-item-top">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- searchbar -->
+
+
+</head>
+
+<body>
+  <div class="main-content py-4">
+
+    <section id="about me">
+
+
+      <div class="container">
+        <img src="ame.png" alt="Profile Picture" style="width:300px; height:300px;" class="flip-img" id="flipImage">
+        <div class="text">
+          <h6 class="text2">hello!! my name is</h6>
+          <h1>Emma Wijaya</h1>
+          <p class="lead text2"> Software Engineer based in Perth who loves sashimi and also machine learning..<br> Let's make
+            something cool together!!!</p>
+
+          <div class="button-row">
+            <button class="button" onclick="sendMail()"">Contact Me</button>
+            <button class="icon-button">
+              <a href="https://www.linkedin.com/in/emma-wijaya/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </button>
+            <button class="icon-button">
+              <a href="https://github.com/emmathadine" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </button>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+
+    </section>
+
+
+    <section id="projects">
+
+      <br>
+      <br>
+      <div class="heading-container">
+        <h2 class="subheading-2">What I've Built</h2>
+        <h1 class="header-text3">Projects</h1>
+      </div>
+      <section class="scrolling-gallery">
+        <div class="gallery-track">
+          <div class="gallery-item special-item" data-image="paris.png">
+            <div class="item-content">
+              <div class="item-title">Paris Olympics Database</div>
+              <div class="item-desc">Design and Implementation of Database in MySQL using data from Paris Olympics 2024.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="caltrack.png">
+            <div class="item-content">
+              <div class="item-title">CalTracker</div>
+              <div class="item-desc">Mobile app to track user calories through logging meals, uses API, cloud computing, databasing.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="connect4.png">
+            <div class="item-content">
+              <div class="item-title">ConnectFour!</div>
+              <div class="item-desc">Mobile app to play Connect Four.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="mall.png">
+            <div class="item-content">
+              <div class="item-title">MallNav</div>
+              <div class="item-desc">Shopping Mall Directory System with Shortest Path Navigation via DFS and BFS.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="ilibrary.png">
+            <div class="item-content">
+              <div class="item-title">iLibrary</div>
+              <div class="item-desc">Mobile app to keep track of books at home, uses API and databasing.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="bleve.png">
+            <div class="item-content">
+              <div class="item-title">BLEVE Predictor</div>
+              <div class="item-desc">Machine learning project to train models to predict the pressure of a BLEVE.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="thrive.png">
+            <div class="item-content">
+              <div class="item-title">ThriveMind</div>
+              <div class="item-desc">Designed an application to aid elderly users in maintaining physical and mental health to reduce dementia risk.</div>
+            </div>
+          </div>
+
+          <div class="gallery-item special-item" data-image="paris.png">
+            <div class="item-content">
+              <div class="item-title">Paris Olympics Database</div>
+              <div class="item-desc">Design and Implementation of Database in MySQL using data from Paris Olympics 2024.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="caltrack.png">
+            <div class="item-content">
+              <div class="item-title">CalTracker</div>
+              <div class="item-desc">Mobile app to track user calories through logging meals, uses API, cloud computing, databasing.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="connect4.png">
+            <div class="item-content">
+              <div class="item-title">ConnectFour!</div>
+              <div class="item-desc">Mobile app to play Connect Four.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="mall.png">
+            <div class="item-content">
+              <div class="item-title">MallNav</div>
+              <div class="item-desc">Shopping Mall Directory System with Shortest Path Navigation via DFS and BFS.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="ilibrary.png">
+            <div class="item-content">
+              <div class="item-title">iLibrary</div>
+              <div class="item-desc">Mobile app to keep track of books at home, uses API and databasing.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="bleve.png">
+            <div class="item-content">
+              <div class="item-title">BLEVE Predictor</div>
+              <div class="item-desc">Machine learning project to train models to predict the pressure of a BLEVE.</div>
+            </div>
+          </div>
+          <div class="gallery-item special-item" data-image="thrive.png">
+            <div class="item-content">
+              <div class="item-title">ThriveMind</div>
+              <div class="item-desc">Designed an application to aid elderly users in maintaining physical and mental health to reduce dementia risk.</div>
+            </div>
+          </div>
+
+          <!-- Add more items as needed -->
+        </div>
+      </section>
+
+    </section>
+
+
+    <div class="whitesection" id = "skills">
+
+      <div class="sectioncolumn">
+        <section id="skills">
+        <div class="heading-container">
+          <h2 class="subheading">What I Can Do</h2>
+          <h1 class="header-text2">Skills</h1>
+        </div>
+        <p class="text3">My Skills related to Software Engineering and Computer Science!</p>
+        
+        <section id="skills">
+          <div class="skill-container">
+            <div class="skill">
+              <span class="skill-name">Java</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill-name">SQL</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill-name">Machine Learning</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-width="50%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill-name">C</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-width="60%"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+        
+          </section>
+      </div>
+
+      
+
+      <div class="sectioncolumn">
+        <section id="experience">
+          <div class="heading-container">
+            <h2 class="subheading">Where I've Worked</h2>
+            <h1 class="header-text2">Experience</h1>
+          </div>
+
+
+          <div class="quote">
+            <div class="quote-sidebar"></div>
+            <div class="quote-text">
+              <div class="experience-header">
+                <h3 class="job-title">Student Software Engineer <span class="company-name">@ Deloitte</span></h3> 
+                <p class="job-date">Feb 2025 - Present</p>
+              </div>
+              <p class="job-description">Worked on the full-stack development of a web app that provided financial forecasting and portfolio optimization through trained Classic ML models and Quantum Computing ML models.</p>
+                <button class="download-btn" data-bs-toggle="collapse" href="#skill-job1" role="button" aria-expanded="true"><span class='job-date'>Skills Used </span></button>
+                <div id = "skill-job1" class="collapse show">
+                    <span class="tech-tag">Quantum Computing</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">Scikit-Learn</span>
+                    <span class="tech-tag">Google TensorFlow</span>
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">PennyLane Framework</span>
+                    <span class="tech-tag">APIs</span>
+                    <span class="tech-tag">Microsoft Azure</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">TailwindCSS</span>
+                    <span class="tech-tag">React JS</span>
+                    <span class="tech-tag">Express JS</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+
+                <br>
+                <div class="experience-header">
+                  <h3 class="job-title">STEM Study Buddies Leader <span class="company-name">@ Curtin University</span></h3> 
+                  <p class="job-date">Feb 2024 - Aug 2024</p>
+                </div>
+                <p class="job-description">Led mentoring sessions for COMP1007 Programming Design and Implementation and ISAD1000 Introduction to Software Engineering, assisting students in understanding core programming concepts and software engineering principles.</p>
+                <button class="download-btn" data-bs-toggle="collapse" href="#skill-job2" role="button" aria-expanded="true"><span class='job-date'>Skills Used </span></button>
+                <div id = "skill-job2" class="collapse show">
+                    <span class="tech-tag">Java</span>
+                      <span class="tech-tag">Python</span>
+                      <span class="tech-tag">Software development</span>
+                      <span class="tech-tag">Project Management</span>
+                      <span class="tech-tag">Tutoring</span>
+                      <span class="tech-tag">Programming</span>
+                  </div>
+              
+    
+            </div>
+          
+          </div>
+
+
+
+        </section>
+    </div>
+    </div>  
+
+
+
+    <div class="whitesection" id="education">
+
+      <div class="sectioncolumn">
+        <section id="education2">
+        <div class="heading-container">
+          <h2 class="subheading">My Learning Journey</h2>
+          <h1 class="header-text2">Education</h1>
+        </div>
+        <div class="experience-header">
+          <h3 class="job-title">Bachelor of Computing <span class="company-name">@ Curtin University</span></h3> 
+          <p class="job-date">Feb 2023 - Dec 2025</p>
+        </div>
+        <p class="job-description">Major in Computer Science. Current CWA of 91.31%. Vice Chancellor's List Member. To download my academic transcript and CV, please click below!</p>
+        <div class="dl-button-row">
+          <button class="download-btn"><a href='Emma Wijaya Academic Transcript 2025.pdf' download='Emma Wijaya Academic Transcript 2025.pdf'>Academic Transcript</a></button>
+          <button class="download-btn"><a href='Emma Wijaya 2025 CV.pdf' download='Emma Wijaya 2025 CV.pdf'>Curriculum Vitae (CV)</a></button>
+        </div>
+        <button class="download-btn" data-bs-toggle="collapse" href="#skill-job3" role="button" aria-expanded="true"><span class='job-date'>Domains of Knowledge </span></button>
+                <div id = "skill-job3" class="collapse show">
+                    <span class="tech-tag">Data Structures and Algorithms</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">Design and Analysis of Algorithms</span>
+                    <span class="tech-tag">Computer Communications and Networks (CISCO)</span>
+                    <span class="tech-tag">Mobile Application Design</span>
+                    <span class="tech-tag">Intelligent Agents</span>
+                    <span class="tech-tag">Web Application Frameworks</span>
+                    <span class="tech-tag">Distributed Computing</span>
+                    <span class="tech-tag">Database Systems</span>
+                    <span class="tech-tag">Operating Systems</span>
+                    <span class="tech-tag">UI/UX Design</span>
+                    <span class="tech-tag">Obsect Oriented Software Engineering</span>
+                    <span class="tech-tag">Theoretical Foundations of Computer Science</span>
+                    <span class="tech-tag">Programming Languages</span>
+                </div>
+          </section>
+      </div>
+
+      <div class="sectioncolumn">
+        <section id="awards">
+        <div class="heading-container">
+          <h2 class="subheading">My Honors</h2>
+          <h1 class="header-text2">Awards</h1>
+        </div>
+        
+        <div class="experience-header">
+          <h3 class="job-title">Most Outstanding Second Year in Computing 2024 <span class="company-name">@ Curtin University</span> <span class="job-date">Feb 2025</span></h3> 
+          
+        </div>
+        <p class="job-description">Awarded for outstanding performance by the Faculty of Science and Engineering</p>
+        <div class="experience-header">
+          <h3 class="job-title">Best First Year in Computing 2023 <span class="company-name">@ Curtin University</span> <span class="job-date">Feb 2024</span></h3> 
+        </div>
+        <p class="job-description">Awarded for highest performance by a First Year Computing Student by the School of EECMS</p>
+        <div class="experience-header">
+          <h3 class="job-title">Most Outstanding First Year in Computing 2023 <span class="company-name">@ Curtin University</span> <span class="job-date">Feb 2024</span></h3> 
+        </div>
+        <p class="job-description">Awarded for outstanding performance by the Faculty of Science and Engineering</p>
+        <div class="experience-header">
+          <h3 class="job-title">Vice Chancellor's List Member <span class="company-name">@ Curtin University</span> <span class="job-date">Feb 2024</span></h3> 
+        </div>
+        <p class="job-description">Awarded twice for being in the Top 1% of all Curtin University Undergraduates in Semester 1 and 2 of 2023.</p>
+        <h3 class="job-title">Dean's Letter of Commendation <span class="company-name">@ Curtin University</span> <span class="job-date">Feb 2024</span></h3> 
+      <p class="job-description">Awarded four times for achieving high distinction in Semester 1 and 2 of 2023 and 2024.</p>
+    </div>
+        </section>
+    </div>
+    <section id="contact">
+        <div class="container2">
+        <div class="row">
+          <div class="col">
+            <div class="heading-container">
+              <h2 class="subheading-2">Let's Connect :D</h2>
+              <h1 class="header-text3">Contact Me!</h1>
+            </div>
+            <p>want to get in touch? contact me through the following methods!</p>
+            <ul>
+              <li>Email: emmathadine@gmail.com</li>
+              <li>Phone: +61 466071953</li>
+            </ul>
+            <p>or use the form below:</p>
+            <form action="mailto:emmathadine@gmail.com" method="POST" enctype="text/plain">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+              </div>
+              <button type="submit" class="button">Submit</button>
+            </form>
+            
+          </div>
+        </div>
+
+      </section>
+    </section>
+
+    </p>
+
+
+  <!-- bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+    <script>
+      document.querySelectorAll('.special-item').forEach(item => {
+        const image = item.getAttribute('data-image');
+        item.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('${image}')`;
+      });
+    
+    const img = document.getElementById('flipImage');
+
+    img.addEventListener('mousemove', (e) => {
+      const rect = img.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      const rotateY = (x / rect.width - 0.5) * 20;
+      const rotateX = (0.5 - y / rect.height) * 20;
+
+      img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+
+      // Shadow moves opposite to rotation
+      const shadowX = (x / rect.width - 0.5) * -30;
+      const shadowY = (y / rect.height - 0.5) * -30;
+      img.style.boxShadow = `${shadowX}px ${shadowY}px 40px rgba(86, 0, 255, 0.6)`;
+
+    });
+
+    img.addEventListener('mouseleave', () => {
+      img.style.transform = 'rotateX(0deg) rotateY(0deg)';
+      img.style.transition = 'box-shadow 0.5s ease'; // Apply transition on mouse leave
+      img.style.boxShadow = '0 0 25px rgba(86, 0, 255, 0)'; // Fades to transparent
+    });
+// Create an Intersection Observer to detect when the experience items are in the viewport
+const experienceItems = document.querySelectorAll('.experience-item');
+
+const observerOptions = {
+  root: null, // Use the viewport as the root
+  threshold: 0.2, // Trigger the animation when 20% of the item is visible
+};
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+      
+       // Add a delay to each item based on its index
+       entry.target.style.transitionDelay = `${index * 0.3}s`;  // 0.3s delay for each subsequent item
+// Add the 'show' class when the item is visible
+      observer.unobserve(entry.target); // Stop observing the item once it's in view
+    }
+  });
+}, observerOptions);
+
+// Observe each experience item
+experienceItems.forEach(item => {
+  observer.observe(item);
+});
+
+
+
+  </script>
+
+<script>
+  function sendMail() {
+    const email = "emmathadine@gmail.com";
+    const subject = encodeURIComponent("hi :]");
+    const body = encodeURIComponent("write your message to me here!");
+
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+  }
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const skills = document.querySelectorAll(".skill-level");
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          el.style.width = el.dataset.width;
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    skills.forEach(skill => {
+      skill.style.width = '0';
+      observer.observe(skill);
+    });
+  });
+</script>
+
+
+</body>

@@ -1,0 +1,612 @@
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.kode-mono {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-top {
+  z-index: 1000;
+  /* Ensure the navbar is above other content */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  /* Add shadow effect */
+  background-color: #09001b !important;
+  /* Orange background */
+}
+
+/* Custom sidebar link color */
+.navbar-top .nav-link {
+  font-family: 'Kode Mono';
+  padding-left: 50px;
+  padding-right: 15px;
+  color: #B6A9E5 !important;
+  /* Orange links */
+
+
+}
+
+/* Change color on hover */
+.navbar-top .nav-link:hover {
+  color: #f6efee !important;
+  /* Darker orange */
+}
+
+
+
+/* Custom sidebar link color */
+.nav-link {
+  box-shadow: inset 0 0 0 0 #5600FF;
+
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  color: #5600FF !important;
+  /* Orange links */
+}
+
+/* Change color on hover */
+.nav-link:hover {
+  /*border-left: 4px solid #5600FF; Thin left border */
+  box-shadow: inset 100px 0 0 0 #5600FF;
+  color: #BD8EE8 !important;
+}
+
+
+/* Make subheading links even smaller */
+.nav-link.fs-7 {
+  font-size: 0.85rem;
+  /* Adjust smaller font size */
+}
+
+.header-text {
+  font-family: 'Jersey 10';
+  font-size: 100px;
+}
+
+.header-text2 {
+  font-family: 'Jersey 10';
+  color:#120055;
+  font-size: 70px;
+}
+.header-text3 {
+  font-family: 'Jersey 10';
+  color:#f6efee;
+  font-size: 70px;
+  
+}
+
+
+/* Individual experience item */
+.experience-item {
+opacity: 0; /* Start with the item hidden */
+transform: translateX(100%); /* Initially offset the item 100% to the right */
+transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out; /* Smooth transition */
+}
+/* Job Header (Job title, company, and date) */
+.experience-header {
+margin-bottom: 10px;
+}
+
+.job-title {
+font-size: 1.5em;
+font-weight: bold;
+font-family: "Kode Mono";
+color:#120055;
+}
+
+.company-name {
+font-size: 1em;
+font-weight: normal;
+color: #5600FF;
+}
+
+.job-date {
+font-size: 1em;
+font-family: "Kode Mono";
+color: #5600FF;
+}
+
+/* Job description */
+.job-description {
+margin-top: 10px;
+font-size: 0.9em;
+text-align: justify;
+line-height: 1.5;
+border-left: 5px solid #9b69ff;
+margin-left: 1.5em 10px;
+padding: 0.5em 10px;
+font-family: "Kode Mono";
+color: #0e002b;
+}
+
+.job-description p{
+display: inline-block;
+}
+
+.collapsible {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0; /* start with transparency */
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: max-height 0.4s ease, padding 0.4s ease, opacity 0.4s ease;
+  }
+  
+  .collapsible.open {
+    max-height: 1000px; /* adjust as necessary */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 1; /* fully visible */
+  }
+  
+  
+/* Tech stack tags */
+.tech-stack {
+margin-top: 15px;
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.tech-tag {
+background-color: #5600FF;
+color: #fff;
+padding: 5px 10px;
+border-radius: 20px;
+font-size: 0.9em;
+display: inline-block;
+margin: 5px;
+font-family: 'Kode Mono';
+transition: background-color 0.3s ease;
+}
+
+.tech-tag:hover {
+background-color: #3f00b5;
+}
+
+.collapse-toggle {
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2em;
+  }
+  
+  .collapse-content {
+    padding: 10px 20px;
+    display: none;
+  }
+  
+  .collapse-cont {
+    margin-bottom: 20px;
+  }
+  
+
+
+/* Animation when visible */
+.experience-item.show {
+opacity: 1;
+transform: translateX(0); /* Move the item to its original position */
+}
+
+.main-content {
+  background: linear-gradient(180deg, #0e002b, #120055);
+  color: #FAF8FF;
+  padding-top: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+  font-family: "Kode Mono";
+  background-color: #0e002b;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  /* Add shadow effect */
+}
+
+.container2 {
+    display: flex;
+    padding: 30px;
+    gap: 25px;
+    margin:50px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kode Mono";
+    background-color: #0e002b;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Add shadow effect */
+  }
+  .container2 img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  
+  }
+
+.container img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+
+}
+
+.form-group{
+    margin:10px;
+}
+
+.flip-image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  /* Smooth transition for flip */
+  cursor: pointer;
+}
+
+.flip-image.flipped {
+  transform: rotateY(180deg);
+  /* Flip the image 180 degrees */
+}
+
+.flip-image:hover {
+  transform: rotateY(0deg) scale(1.05);
+  /* Tilt effect on hover */
+}
+
+
+.text2 {
+  color: #B6A9E5;
+}
+.text3 {
+  font-family: "Kode Mono";
+  color: #09001b;
+}
+
+.container h1 {
+  max-width: 500px;
+  background-color: #5600FF;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.button-row {
+  display: flex;
+  /* Horizontal layout */
+  gap: 20px;
+  /* Space between buttons */
+  align-items: center;
+  /* Vertically align buttons */
+  margin-top: 20px;
+}
+
+.dl-button-row {
+    display: flex;
+    /* Horizontal layout */
+    gap: 20px;
+    /* Space between buttons */
+    align-items: center;
+    /* Vertically align buttons */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+.button {
+  padding: 12px 24px;
+  background-color: transparent;
+  color: #FAF8FF;
+  border: 2px solid #5600FF;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  height: 50px;
+  /* Consistent height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #5600FF;
+  color: white;
+}
+
+.download-btn { 
+    flex: 1;
+    padding: 12px 24px;
+    background-color: transparent;
+    color: #5600FF;
+    border: 2px solid #5600FF;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    height: 50px;
+    font-family: 'Kode Mono';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;  /* Removes the underline */
+}
+
+.download-btn a {
+    color: #5600FF;             /* Default link color */
+    text-decoration: none;      /* Removes the underline */
+    display: block;             /* Makes the link fill the entire button */
+}
+
+.download-btn:hover {
+    background-color: #5600FF;
+    color:white; /* Background color on hover */
+}
+
+.download-btn:hover a {
+    color: white;               /* Changes the text color to white on hover */
+}
+
+.download-btn:hover {
+  background-color: #5600FF;
+  color: white;
+}
+  
+.icon-button {
+  background-color: transparent;
+  border: 2px solid #5600FF;
+  font-size: 24px;
+  color: #FAF8FF;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  height: 50px;
+  width: 50px;
+  /* Set width for square icon buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-button:hover {
+  background-color: #5600FF;
+  color: white;
+}
+
+/* Remove default anchor styles */
+.icon-button a {
+  text-decoration: none;
+  color: inherit;
+  /* Inherit color from the button */
+}
+
+.scrolling-gallery {
+  width: 100vw;
+  /* Full width of the viewport */
+  height: 300px;
+  /* Adjust as needed */
+  overflow: hidden;
+  padding: 0;
+  /* Remove padding to stretch the content */
+  background-color: transparent;
+  position: relative;
+  /* Ensures content stays within bounds */
+}
+
+.gallery-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.gallery-item {
+  flex: 0 0 auto;
+  margin: 0 15px;
+}
+
+.gallery-item img {
+  width: auto;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.special-item {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #5600FF; /* fallback / solid color for hover */
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease;
+  flex: 0 0 auto;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.special-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  transition: opacity 0.4s ease;
+  z-index: 0;
+}
+
+.special-item:hover::before {
+  opacity: 0;
+}
+
+.special-item:hover {
+  transform: scale(1.05);
+}
+
+.item-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-family: 'Kode Mono';
+  transition: all 0.4s ease;
+  padding: 20px;
+}
+
+.item-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Kode Mono';
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.item-desc {
+  font-size: 1em;
+  margin-top: 10px;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  font-family: 'Kode Mono';
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+}
+
+.special-item:hover .item-title {
+  opacity: 0;
+}
+
+.special-item:hover .item-desc {
+  opacity: 1;
+  max-height: 200px;
+}
+
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .skill-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Kode Mono';
+    color: #333;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    background-color: #BD8EE8;
+    height: 20px;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  .skill-level {
+    height: 100%;
+    background-color: #5600FF;
+    border-radius: 25px 0 0 25px;
+    width: 0;
+    transition: width 1s ease-out;
+  }
+  
+
+  
+
+.whitesection{
+  background-color: #f6efee;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin:50px;
+  gap:20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sectioncolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100%;
+  width: 50%;
+  /* Adjust width as needed */
+}
+
+.heading-container {
+text-align: center;
+}
+
+.subheading {
+font-size: 1.2rem;
+color: #5600FF;
+font-family: "Kode Mono";
+letter-spacing: 2px;
+margin-bottom: 5px;
+}
+
+.subheading-2 {
+    font-size: 1.2rem;
+    color: #fFF;
+    font-family: "Kode Mono";
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    }
+    
+
+.main-heading {
+font-size: 3rem;
+color: #120055;
+font-family: "Kode Mono";
+font-weight: bold;
+display: inline-block; /* Make sure it allows for border manipulation */
+position: relative;
+padding-bottom: 10px; /* Space for the zigzag underline */
+}
+
+/* Customize the scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    background-color: #0e002b;
+    width: 8px; /* Set the width of the scrollbar */
+    height: 8px; /* Set the height of the horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #0e002b;
+   border-radius: 10px; /* Rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #9b69ff; /* Thumb color (the draggable part) */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fFF; /* Darker color when the thumb is hovered */
+  }
+  
+ 
